@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second</title>
+    <link rel="stylesheet" type="text/css" href="local.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  
+  <input type="checkbox" id="show" onclick="myFunction()">
+  
+  <label for="show" class="show-btn">
+    
+    
+  </label>
+  
+  <div id="text" style="display: none;">
+    <div class="chat_icon">
+      <div class='wrapper'>
+        <div id="dialogue">
+
+        </div>
+        <form onSubmit="return chatbot.sendMessage()">
+          <div class="text-box">
+            <input type="text" name="message" id="message" autocomplete="off" disabled placeholder="Please wait... loading...">
+            <input class="send-button" type="submit" value=">">
+          </div>
+        </form>
+      </div>
+    </div>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+      <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/idewcomputing/code-chatbot/src/chatbot.js"></script>
+      <script src="local.js"></script>
+  </div>
+    
+</div>
+</body>
+</html>

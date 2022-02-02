@@ -1,0 +1,157 @@
+body {
+    background-image: url("ani.jpeg");
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: small;
+    color: #000000;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 1.7em;
+  }
+  input#show{
+    position: fixed;
+    left: 96%;
+    top: 90%;
+    display: none;
+  }
+  .show-btn{
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    width: 45px;
+    height: 45px;
+    background-image: url("chaticon.PNG");
+    background-size: 49px 47px;
+    
+    border-radius: 50%;
+  }
+
+.chat_icon{
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+    width: 300px;
+    border-bottom-right-radius: 0;
+    background:pink;
+    border-radius: 6px;
+    z-index: 1000;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.button {
+  background-color: rgba(255,255,255,.5);
+  padding: 5px; 
+  outline: none;
+  border: 1px solid rgba(0,0,0,.3);
+  border-radius: 5px;
+}
+
+form{
+  flex: 5;
+  display: block;
+  padding: 15px;
+  
+}
+
+
+.text-box{
+  font-size: 16px;
+  display: flex;
+  width: 100%;
+}
+
+input#message{
+  padding-left: 11px;
+  padding-right: 9px;
+  font-size: 16px;
+  height: 27px;
+  display: block;
+  flex: 10;
+  outline: none;
+  margin: 0 10px 0 0;
+  box-sizing: border-box;
+  border: 1px solid brown;
+  border-radius: 13px;
+}
+
+.send-button {
+  display: block;
+  background-color: rgba(255,255,255,.6);
+  flex: 1;
+  border: 1px solid rgba(0,0,0,.2);
+  height: 27px;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 0;
+  border-radius: 10px;
+}
+
+
+div#dialogue{
+  display: block;
+  flex: 95;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  height: 75vh;
+  overflow-y: auto;
+}
+div#dialogue::-webkit-scrollbar{
+width: 6px!important;
+height: 6px!important;
+}
+div#dialogue::-webkit-scrollbar-track{
+  border-radius: 6px;
+  background:pink;
+}
+div#dialogue::-webkit-scrollbar-thumb{
+  background: grey;
+  border-radius: 6px;
+}
+div#dialogue::-webkit-scrollbar-corner{
+  background:pink;
+  
+}
+.user-row { 
+  
+  color: white;
+  border-radius: 10px;
+  
+}
+
+.user-row {
+  
+  display: block;
+  position: relative;
+  text-align:right ;
+}
+span.bot{
+  border-bottom-left-radius: 0;
+  margin-right: 50px;
+}
+span.user{
+  border-top-right-radius: 0;
+  
+  
+}
+
+.user, .bot {
+  font-size: 16px;
+  margin-right: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px 8px;
+  margin: 3px;
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+  word-break:break-all;
+}
+
+
+.user {
+  margin-left: 50px;
+  color:black; 
+}

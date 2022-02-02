@@ -1,0 +1,21 @@
+// conversation script is below
+// "start" auto-runs to begin the bot conversation 
+
++ start
+- Hii. i can help you!choice option 1 .hospitality 2. growming 3. pet training 4. pet spa
+
++ 1
+-hospitality
+
++2
+-growming
++3
+-pet training
++4
+-pet spa
+
+
+
+
+ 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
